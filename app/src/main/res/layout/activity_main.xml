@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wallpaperapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/bckgrndImageView8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture1" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture2" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture3" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture4" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture5" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture6" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture7" /> <!-- valib pildi -->
+            <ImageView
+                android:id="@+id/bckgrndImageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/picture8" /> <!-- valib pildi -->
+        </ViewFlipper>
+    </LinearLayout>
+</RelativeLayout>
+
